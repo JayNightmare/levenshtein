@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import $ from "jquery";
+import "jquery";
 type Levenpath = { i: number; j: number; type?: string }[];
 const presets = "elephant|relevant,Saturday|Sunday,Google|Facebook"
 	.split(",")
