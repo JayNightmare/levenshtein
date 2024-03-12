@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import "jquery";
+import $ from "jquery";
 type Levenpath = { i: number; j: number; type?: string }[];
 const presets = "elephant|relevant,Saturday|Sunday,Google|Facebook"
 	.split(",")
@@ -274,10 +274,6 @@ class Gui extends React.Component<{}, GuiState> {
 					<a href="https://github.com/phiresky/levenshtein-demo">
 						Source code on GitHub
 					</a>{" "}
-					|{" "}
-					<a href="http://leojiang.com/experiments/levenshtein/">
-						Original code by Leo Jiang
-					</a>
 				</footer>
 			</div>
 		);
